@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <h1>Calculator</h1>
+        <div class="calc-display">
+            <div class="theme">
+                <img id="sun" src="/sun.svg" onclick="change_theme()">
+                <img id="moon" class="bg-white" src="/moon.svg" onclick="change_theme()"">
+            </div>
+            <div class="display">
+                <input type="text" placeholder="Enter here">
+            </div>
+
+            <div class="buttons">
+                <div class="rows">
+                    <button class="btn operator">AC</button>
+                    <button class="btn operator">Del</button>
+                    <button class="btn operator">%</button>
+                    <button class="btn operator">/</button>
+                </div>
+
+                <div class="rows">
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn operator">*</button>
+                </div>
+
+                <div class="rows">
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn operator">-</button>
+                </div>   
+
+                <div class="rows">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn operator">+</button>
+                </div>
+
+                <div class="rows">
+                    <button class="btn operator">ch</button>
+                    <button class="btn">0</button>
+                    <button class="btn operator">.</button>
+                    <button class="btn operator">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>

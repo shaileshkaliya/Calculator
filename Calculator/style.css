@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.calc-display{
+    height: 85vh;
+    width: 22vw;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.theme{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+    margin-right: 20px;
+}
+
+#sun{
+    /* margin-right: 10px; */
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 10px 0 0px 10px;
+    cursor: pointer;
+}
+#moon{
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.bg-white{
+    background-color: wheat;
+}
+
+.bg-black{
+    background-color: #262626;
+}
+
+input{
+    border: none;
+    height: 35%;
+    width: 87%;
+    font-size: 1.6rem;
+    background-color: transparent;
+    outline: none;
+    text-align: right;
+    padding-right: 15px;
+    color: white;
+    
+}
+
+
+
+.display{
+    height: 35%;
+    background-color: #262626;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+
+}
+
+.btn{
+    height: 5.25rem;
+    width: 5.25rem;
+    margin: 1rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    border: 1px solid #00000047;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+.btn:hover{
+    box-shadow: #f872b329 2px 2px 10px 0px, rgba(233, 105, 188, 0.267) -2px -2px 10px 0px;
+    transform: scale(1.05);
+}
+.operator{
+    color: #e81515;
+}
+
+
+
+.calc-display-light{
+    background-color: white;
+}
+
+.display-light{
+    background-color: white;
+}
+
+.operator-light{
+    color: #e02be5;
+}
+
+.input-light{
+    color: #e02be5;
+    
+}
+
+.btn-light{
+    color: black;
+}
+
+.sun-light{
+    border: 1px solid #0a0a0a;
+}
+.moon-light{
+    border: 1px solid #0a0a0a;
+}
+
+.placeholder-color::-webkit-input-placeholder {
+    color: #e02be5
+ }
